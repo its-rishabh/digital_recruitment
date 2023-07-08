@@ -2,17 +2,20 @@
 <html>
 <head>
   <title>RecruitPro</title>
+  <link rel="icon" type="inage/icon" href="images/icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
     <nav>
-      <!-- Navigation menu -->
+      
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="#features">Features</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#contact">Contact Us</a></li>
         <li><a href="login.html">Login here</a></li>
         <li><a href="registration.html">Register here</a></li>
         <li><a href="search.html">Candidate Search</a></li>
@@ -23,24 +26,24 @@
   <section class="hero">
     <h1>Simplify Your Hiring Process with RecruitPro</h1>
     <p>Find the perfect candidates faster and easier than ever before.</p>
-    <a href="#" class="cta-button">Get Started</a>
+    <a href="search.html" class="cta-button">Get Started</a>
   </section>
 
   <section class="features" id="features">
     <h2>Key Features</h2>
     <ul>
       <li>
-        <img src="feature1-icon.png" alt="Feature 1 Icon">
+        <img src="images/feature1-icon.png" alt="Feature 1 Icon">
         <h3>Automated Screening</h3>
         <p>Efficiently screen candidates using automated processes.</p>
       </li>
       <li>
-        <img src="feature2-icon.png" alt="Feature 2 Icon">
+        <img src="images/feature2-icon.png" alt="Feature 2 Icon">
         <h3>Location-based Search</h3>
         <p>Find candidates based on specific locations.</p>
       </li>
       <li>
-        <img src="feature3-icon.png" alt="Feature 3 Icon">
+        <img src="images/feature3-icon.png" alt="Feature 3 Icon">
         <h3>Comprehensive Evaluation</h3>
         <p>Evaluate candidates thoroughly with our comprehensive system.</p>
       </li>
@@ -50,19 +53,31 @@
   <section class="testimonials" id="testimonials">
     <h2>Client Testimonials</h2>
     <div class="testimonial">
-      <img src="client1-avatar.png" alt="Client 1 Avatar">
+      <img src="images/client1-avatar.png" alt="Client 1 Avatar">
       <blockquote>"The recruitment solution helped us streamline our hiring process and find top talent quickly. Highly recommended!"</blockquote>
       <cite>John Smith, HR Manager at ABC Company</cite>
     </div>
     <div class="testimonial">
-      <img src="client2-avatar.png" alt="Client 2 Avatar">
+      <img src="images/client2-avatar.png" alt="Client 2 Avatar">
       <blockquote>"With the recruitment solution, we saw a significant improvement in our candidate search and selection process. It's been a game-changer for us!"</blockquote>
       <cite>Jane Doe, Talent Acquisition Specialist at XYZ Corporation</cite>
     </div>
   </section>
 
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="contact.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
   <footer>
-    <p>&copy; 2023 Recruitment Solution. All rights reserved.</p>
+    <p>&copy; 2023 RecruitPro. All rights reserved.</p>
   </footer>
 </body>
 </html>
