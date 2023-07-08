@@ -25,7 +25,7 @@ body {
     margin-right: 10px;
   }
   
-  nav ul li a {
+  nav ul li a{
     text-decoration: none;
     color: #333;
   }
@@ -41,10 +41,25 @@ body {
     margin-bottom: 20px;
   }
   
+  button {
+    border: none;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+button:focus{
+    outline:none;
+}
   footer {
+    overflow: hidden;
+    position: fixed;
+    bottom:0;
+    width: 100%;
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
   }
-  
