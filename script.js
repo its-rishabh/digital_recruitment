@@ -10,7 +10,7 @@ document.getElementById('search-form').addEventListener('submit', function (even
     
     // Dummy code to illustrate the results
     var candidateData = [
-      { name: 'John Doe', location: 'New York', jobRole: 'Software Engineer' },
+      { name: 'John Doe', location: 'New Delhi', jobRole: 'Software Engineer' },
       { name: 'Jane Smith', location: 'San Francisco', jobRole: 'UX Designer' },
       // Additional candidate data...
     ];
